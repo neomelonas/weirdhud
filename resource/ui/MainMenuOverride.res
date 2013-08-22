@@ -174,6 +174,7 @@
         "fieldName"     "TFLogoImage"
         "xpos"          "9999"
         "ypos"          "9999"
+    
         "zpos"          "-99"
         "wide"          "256"
         "tall"          "64"
@@ -1859,7 +1860,6 @@
             
             "image_drawcolor"   "117 107 94 255"
             "image_armedcolor"  "235 226 202 255"
-
             "SubImage"
             {
                 "ControlName"   "ImagePanel"

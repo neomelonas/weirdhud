@@ -290,7 +290,7 @@
 		"border"		"NoBorder"
 		"paintbackground"	"1"
 		"bgcolor_override" "224 216 204 255"
-		
+
 		"MannVsMachineLabel"
 		{
 			"ControlName"	"Label"
