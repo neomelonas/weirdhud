@@ -16,16 +16,15 @@
 	}
 	"QuickplayButton"
 	{
-		"label" "Connect to NP" 
-		"command" "engine connect 74.91.124.28:27015; password BaGamesL"
+		"label" "Connect to HL" 
+		"command" "engine connect 74.91.124.28:27015; password bigbagel"
 		"subimage" "glyph_server"
 	}
 	"PlayPVEButton"
 	{
-		"label" "Cooperative" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
+		"label" "Connect to 6s" 
+		"command" "engine connect 74.91.124.28:27015; password bigbagel"
+		"subimage" "glyph_server"
 	}
 	"ServerBrowserButton"
 	{
@@ -86,7 +85,7 @@
 	"QuickConnectButton"
 	{
 		"label"			"Connect to NP"
-		"command" 		"engine connect 74.91.124.28:27015; password BaGamesL"
+		"command" 		"engine connect 74.91.124.28:27015; password bigbagel"
 		"OnlyInGame"	"1"
 		"subimage" 		"icon_checkbox"
 	}

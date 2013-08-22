@@ -43,7 +43,7 @@
 				"textinsetx"	"25"
 				"use_proportional_insets" "1"
 				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
+				"textAlignment"	"east"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
@@ -131,8 +131,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"		"OmpDarkBG"
 	}
 	

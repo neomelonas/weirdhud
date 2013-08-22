@@ -43,16 +43,17 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	    "0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
-		
-		"blue_active_xpos"			"0"
-		"red_active_xpos"			"0"
-       
-	}	
-	
+		"xpos"	"c-100"
+		"ypos"	"r30"
+		"wide"	"200"
+		"tall"	"60"
+
+		"blue_active_xpos"			"16"
+		"blue_active_xpos_minmode"	"55"
+
+		"red_active_xpos"			"106"
+		"red_active_xpos_minmode"	"105"
+	}
 
 	HudItemEffectMeter
 	{
@@ -1375,8 +1376,8 @@
 		"ypos" "c-96"
 		"wide" "203"
 		"tall" "200"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"textAlignment" "center"
 	}
 
@@ -1384,7 +1385,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"0"			//1
+		"visible"		"1"			//1
 		"enabled"		"1"
 		"zpos"			"2"
 		"xpos"			"c-57"
@@ -1395,7 +1396,7 @@
 		"labelText"		"i"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 120"
+		"fgcolor"		"0 255 120 120"
 	}
 
 	CrossHairKonrWingsOutline
@@ -1407,12 +1408,12 @@
 		"zpos"			"2"
 		"xpos"			"c-58"
 		"ypos"			"c-49"
-		"wide"			"102"
-		"tall"			"101"
+		"wide"			"88"
+		"tall"			"89"
 		"font"			"CrossHairKonrWingsOutline"
 		"labelText"		"i"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 120"
+		"fgcolor"		"0 255 120 120"
 	}
 }
