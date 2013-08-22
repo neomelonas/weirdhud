@@ -1406,9 +1406,9 @@
 		"visible"		"0"			//1
 		"enabled"		"0"
 		"zpos"			"2"
-		"xpos"			"c-58"
+		"xpos"			"c-59"
 		"ypos"			"c-49"
-		"wide"			"88"
+		"wide"			"89"
 		"tall"			"89"
 		"font"			"CrossHairKonrWingsOutline"
 		"labelText"		"i"

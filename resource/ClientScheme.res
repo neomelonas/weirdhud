@@ -4767,6 +4767,17 @@ Scheme
 			}
 		}
 
+		"sosas"
+		{
+			"1"
+			{
+				"name"		"Sosa"
+				"tall"		"36"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
 		"Crosshairs6"
 		{
 			"1"
@@ -9099,6 +9110,11 @@ Scheme
 		{
 			"font" "resource/fonts/NovecentoBook.ttf"
 			"name" "NovecentoBook"  
+		}
+		"26" 
+		{
+			"font" "resource/fonts/sosa.ttf"
+			"name" "Sosa"  
 		}
 	}
 }
