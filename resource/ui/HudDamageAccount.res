@@ -7,10 +7,10 @@
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"OmpHealNumbers"
-		"NegativeColor"			"OmpDamageNumbers"
-		"delta_lifetime"		"2.5"
-		"delta_item_font"		"FuturaHeavyOutline20"
-		"delta_item_font_big"	"FuturaHeavyOutline20"
+		"NegativeColor"			"Garm3nPink"
+		"delta_lifetime"		"3"
+		"delta_item_font"		"Museo30Outline"
+		"delta_item_font_big"	"Museo30Outline"
 	}
 	"CDamageAccountValue"
 	{

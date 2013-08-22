@@ -43,17 +43,16 @@
 		"fieldName" "HudKothTimeStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-100"
-		"ypos"	"r30"
-		"wide"	"200"
-		"tall"	"60"
+		"xpos"	    "0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 		
-		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
-	
-		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
+		"blue_active_xpos"			"0"
+		"red_active_xpos"			"0"
+       
 	}	
+	
 
 	HudItemEffectMeter
 	{
@@ -351,8 +350,8 @@
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-20"
 		"ypos"	"440"
-		"wide"	"120"
-		"tall"  "40"
+		"wide"	"f0"
+		"tall"  "480"
 		"visible" "1"
 		"enabled" "1"
 		
@@ -389,7 +388,7 @@
 		"xpos"	"16"
 		"ypos"	"370"
 		"wide"	"102"
-		"tall"	"20"
+		"tall"	"20"	
 		
 		"text_xpos" "8"
 		"text_ypos" "6"
@@ -562,25 +561,32 @@
 
 	}
 
+	/////////////////////////////////////////////////////////////////////////////
+	//CLOSECAPTIONS
+	//
+	//These display notifications for in-game voice commands (Player Hurt/Buffed, Medic Charge Call)
+	//
+	//To enable paste the caption files from /Custom/ into your resource folder.
+	//Type "closecaptions 1" in console if they aren't showing.
+	/////////////////////////////////////////////////////////////////////////////
+
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
+		"xpos"		"c-35"
+		"ypos"		"275"	
 		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
+		"tall"		"136"	
 
-		"BgAlpha"	"128"
+		"BgAlpha"	"1"
 
-		"GrowTime"		"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
-		"ItemFadeOutTime"	"0.3"
-		"topoffset"		"0"
+		"GrowTime"		"0.24"
+		"ItemHiddenTime"	"0.2" 
+		"ItemFadeInTime"	"0.17"	
+		"ItemFadeOutTime"	"0.24"
+		"topoffset"		"1"
 	}
 
 	HudHistoryResource 
@@ -1319,7 +1325,7 @@
 		"labelText" "+"
 		"xpos" "c-100"
 		"ypos" "c-100"
-		"wide" "200"
+		"wide" "201"
 		"tall" "200"
 		"visible" "1"
 		"enabled" "1"
@@ -1362,15 +1368,51 @@
 	{
 		"controlName" "CExLabel"
 		"fieldName" "OmpCrosshairCircle"
-		"font" "Crosshairs30"
+		"font" "Crosshairs32"
 		"fgcolor" "255 255 255 80"
 		"labelText" "9"
 		"xpos" "c-101"
 		"ypos" "c-96"
-		"wide" "201"
+		"wide" "203"
 		"tall" "200"
 		"visible" "1"
 		"enabled" "1"
 		"textAlignment" "center"
+	}
+
+	CrossHairKonrWings
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairKonrWings"
+		"visible"		"0"			//1
+		"enabled"		"1"
+		"zpos"			"2"
+		"xpos"			"c-57"
+		"ypos"			"c-49"
+		"wide"			"102"
+		"tall"			"101"
+		"font"			"CrossHairKonrWings"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 120"
+	}
+
+	CrossHairKonrWingsOutline
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairKonrWingsOutline"
+		"visible"		"0"			//1
+		"enabled"		"0"
+		"zpos"			"2"
+		"xpos"			"c-58"
+		"ypos"			"c-49"
+		"wide"			"102"
+		"tall"			"101"
+		"font"			"CrossHairKonrWingsOutline"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 120"
 	}
 }

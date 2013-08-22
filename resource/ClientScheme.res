@@ -28,6 +28,10 @@ Scheme
 		"RedTeamS" 			"184 56 59 175"
 		"BlueTeamS"			"88 133 162 175"
 
+		"NameLabel"             "242 242 242 255"	     //TargetID name label color
+		"TimeLabel"             "242 242 242 255"	     //Respawn and Map time		
+		"DataLabel"             "242 242 242 255"        //Text color for uber/building/disguise status
+		
 		// omp colours
 		"OmpText"			"255 255 255 255"
 		"OmpShadow"			"30 30 30 255"
@@ -89,12 +93,42 @@ Scheme
 		"Garm3nGreenST"		"25 225 74 175"
 		"Garm3nGreenT"		"25 225 74 105"
 		"Garm3nOrange"		"255 125 0 255" 
-		"Garm3nPink"		"255 35 235 175" 	
+		"Garm3nPink"		"255 35 235 255" 	
 		"Garm3nRed"			"255 0 0 175"
 		"Garm3nRedTeam"		"255 0 0 255"
 		"Garm3nWhite"		"255 255 255 175"
 		"Garm3nWhiteS"		"255 255 255 255"
 		"Garm3nYellow"		"255 255 0 255"
+
+		"GrayBG"			"57 57 57 255"				//MenuBG
+		"GrayBGDark"		"42 42 42 255"				//Darker MenuBG
+		"GrayBGDarkest"		"27 27 27 255"	
+		"GrayText"			"110 110 110 255"			//Text for some menu entries
+		"FrameGray"			"142 142 142 255"
+		"BlackBorder"		"17 17 17 255"
+		
+		"Green"				"25 225 74 255" 			//Green on black BG		
+		"GreenST"			"25 225 74 175"
+		"GreenT"			"25 225 74 105"
+		
+		"GreenDark"			"0 124 88 255"				//Green for white highlights
+		
+		"White"				"255 255 255 175"			//Transparent white for text
+		"WhiteS"			"225 225 225 255"			//Matching solid white
+		
+		"RedTeam" 			"184 56 59 175"				//Team fill colors transparent
+		"BlueTeam"			"78 123 152 175"			//
+		"RedTeamS" 			"184 56 59 255"				//
+		"BlueTeamS"			"88 133 162 255"			//Team fill colors solid
+		
+		"LightGray"			"212 212 212 255"
+		"Metal"				"137 159 179 255"
+		"Gray"				"165 165 165 255"		
+		
+		"WhiteBG"			"255 255 255 170"			//Background used for White Box Version
+		
+		"WhiteBGT"			"255 255 255 85"			//Used for demo stick counter
+		"HudBGT"			"0 0 0 100"					//
 
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -514,18 +548,21 @@ Scheme
 		ReplayBrowser.Search.FgColor						"White"
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
+		Econ.Button.BgColor									"ButtonBG"
 		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"TFOrange"
+		Econ.Button.ArmedBgColor							"ButtonArmed"
 		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"TFOrange"
+		Econ.Button.DepressedBgColor						"ButtonSelect"
 		Econ.Button.DepressedFgColor						"Black"
+		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
 		Econ.Button.PresetArmedColorFg						"TanLight"
 		Econ.Button.PresetDepressedColorFg					"TanLight"
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		
+		Econ.Button.PresetDefaultColorBg					"ButtonSelect"
+		Econ.Button.PresetArmedColorBg						"ButtonArmed"
+		Econ.Button.PresetDepressedColorBg					"ButtonBG"
+		
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"
 		Chat.TypingText					"Orange"
@@ -1643,8 +1680,30 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
-		HudNumbers
+		
+		"CrossHairKonrWings"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"23"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"CrossHairKonrWingsOutline"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"23"
+				"weight"	"0"
+				"outline" "1"
+				"antialias"	"1"
+			}
+		}
+		"HudNumbers"
 		{
 			"1"
 			{
@@ -1667,7 +1726,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Novecentowide-Medium"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1690,7 +1749,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Novecentowide-DemiBold"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
@@ -2719,6 +2778,223 @@ Scheme
 				"tall"		"24"
 				"addictive"	"0"
 				"antialias"	"1"
+			}
+		}
+		"Museo30Outline"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"30"
+				"additive"	"0"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}
+		"Museo20"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"20"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Museo19"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"19"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Museo18"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"18"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Museo16"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"16"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Museo15"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"15"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Museo14"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"14"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Museo13"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"13"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Museo12"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"12"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Museo11"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"11"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Museo10"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"10"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Museo9"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"9"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"Museo8"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"8"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+        "NoveLight24"            
+		{
+			"1"
+			{
+				"name"			"NovecentoBook"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+        "NoveLight20"            
+		{
+			"1"
+			{
+				"name"			"NovecentoBook"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+        "NoveLight18"            
+		{
+			"1"
+			{
+				"name"			"NovecentoBook"
+				"tall"		"18"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+         "NoveLight16"            
+		{
+			"1"
+			{
+				"name"			"NovecentoBook"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+        "NoveLight12"            
+		{
+			"1"
+			{
+				"name"			"NovecentoBook"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+        "NoveLight10"          
+		{
+			"1"
+			{
+				"name"			"NovecentoBook"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+        "NoveLight8"          
+		{
+			"1"
+			{
+				"name"			"NovecentoBook"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
 			}
 		}
 		// omp fonts
@@ -8731,58 +9007,98 @@ Scheme
 		// omp fonts
 		"7"
 		{
-			"font" "resource/GeosansLight.otf"
+			"font" "resource/fonts/GeosansLight.ttf"
 			"name" "GeosansLight"
 		}
 		"8"
 		{
-			"font" "resource/GeosansLight.otf"
+			"font" "resource/fonts/GeosansLight.ttf"
 			"name" "GeosansLight"
 		}
 		"9"
 		{
-			"font" "resource/Crosshairs.otf"
+			"font" "resource/fonts/Crosshairs.otf"
 			"name" "Crosshairs Regular"
 		}
 		"10"
 		{
-			"font" "resource/Symbol.ttf"
+			"font" "resource/fonts/Symbol.ttf"
 			"name" "Symbol"
 		}
 		"11"
 		{
-			"font" "resource/Blocks.ttf"
+			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
 		"12" 
 		{
-			"font" "resource/FORMASGE.ttf"
+			"font" "resource/fonts/FORMASGE.ttf"
 			"name" "FORMASGE"
 		}
 		"13" 
 		{
-			"font" "resource/Paula.ttf"
+			"font" "resource/fonts/Paula.ttf"
 			"name" "Paula"
 		}
 		"14" 
 		{
-			"font" "resource/Novecentowide-DemiBold.otf"
+			"font" "resource/fonts/Novecentowide-DemiBold.otf"
 			"name" "Novecentowide-DemiBold"
 		}
 		"15" 
 		{
-			"font" "resource/Novecentowide-Medium.otf"
+			"font" "resource/fonts/Novecentowide-Medium.otf"
 			"name" "Novecentowide-Medium"
 		}
 		"16" 
 		{
-			"font" "resource/Novecentowide-Book.otf"
+			"font" "resource/fonts/Novecentowide-Book.otf"
 			"name" "Novecentowide-Book"
 		}
 		"17"
 		{
-			"font" "resource/DistTh.otf"
+			"font" "resource/fonts/DistTh.otf"
 			"name" "District"
+		}
+		"18"
+		{
+			"font"	"resource/fonts/MuseoSansCyrl-500.otf"
+			"name"	"Museo"
+		}
+		"19"
+		{
+			"font" "resource/fonts/Entypo.otf"
+			"name" "Entypo"
+		}
+		"20" 
+		{
+			"font" "resource/fonts/AvenirLTStd-Black.ttf"
+			"name" "AvenirLTStd-Black"
+		}
+		"21" 
+		{
+			"font" "resource/fonts/AvenirLTStd-Medium.otf"
+			"name" "AvenirLTStd-Medium"
+		}	
+		"22" 
+		{
+			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
+			"name" "AvenirLTStd-Heavy"
+		}
+		"23"
+		{
+			"font" "resource/fonts/AvenirLTStd-Book.otf"
+			"name" "AvenirLTStd-Book"
+		}
+		"24"
+		{
+			"font" "resource/fonts/Garm3nFont.ttf"
+			"name" "Garm3nFont"
+		}
+		"25" 
+		{
+			"font" "resource/fonts/NovecentoBook.ttf"
+			"name" "NovecentoBook"  
 		}
 	}
 }

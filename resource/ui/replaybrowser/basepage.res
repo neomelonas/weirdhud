@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"DoodleColorDialogBack"
+		"bgcolor_override"	"GrayBG"
 	}
 	"SearchTextEntry"
 	{
@@ -35,8 +35,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"117 107 94 255"
+		"fgcolor_override"		"WhiteS"
+		"bgcolor_override"		"110 110 110 255"
 		"Font"			"HudFontSmallest"
 	}
 	"ReplayList"
@@ -51,7 +51,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"paintbackground"	"1"
-		"bgcolor_override"	"41 37 38 0"
+		"bgcolor_override"	"42 42 42 0"
 		"autohide_scrollbar" "1"
 	}
 }

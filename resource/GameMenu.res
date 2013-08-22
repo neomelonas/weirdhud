@@ -83,12 +83,20 @@
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"CallVoteButton"
+	"QuickConnectButton"
 	{
 		"label"			"Connect to NP"
-		"command" "engine connect 74.91.124.28:27015; password BaGamesL"
+		"command" 		"engine connect 74.91.124.28:27015; password BaGamesL"
 		"OnlyInGame"	"1"
+		"subimage" 		"icon_checkbox"
+	}
+	"CallVoteButton"
+	{
+		"label"			"Call Vote"
+		"command"		"callvote"
+		"OnlyInGame" "1"
 		"subimage" "icon_checkbox"
+		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
@@ -96,13 +104,5 @@
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
-	}
-	"RequestCoachButton"
-	{
-		"label"			"Call Vote"
-		"command"		"callvote"
-		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote""
 	}
 }

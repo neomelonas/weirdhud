@@ -16,9 +16,10 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"GrayBG"
+		"infocus_bgcolor_override" "GrayBG"
+		"outoffocus_bgcolor_override" "GrayBG"
+		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
 		"modelpanels_height"		"260"
@@ -28,14 +29,17 @@
 		{
 			"PaintBackgroundType"	"2"
 			"paintborder"			"1"
-			"border"	"DoodlesBorderBlock1"
+			"bgcolor_override"		"0 0 0 0"
+			
 			"model_xpos"	"-125"
 			"model_center_y"	"1"
 			"model_tall"	"160"
+			
 			"text_forcesize"	"1"
 			"text_xpos"		"250"
 			"text_wide"		"225"
 			"text_center"	"1"
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -43,6 +47,7 @@
 			}
 		}
 	}
+	
 	"classimageoutline"
 	{
 		"ControlName"	"EditablePanel"
@@ -55,6 +60,7 @@
 		"visible"		"1"
 		"bgcolor_override" "0 0 0 255"
 	}
+	
 	"classimage"
 	{
 		"ControlName"	"ImagePanel"
@@ -69,11 +75,12 @@
 		"image"			"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
 	}
+	
 	"ItemsFoundLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
-		"font"			"DoodleFontTitleBig"
+		"font"			"HudFontMediumBigBold"
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -86,11 +93,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemFoundMethodLabel"
-		"font"			"DoodleFontTitle"
+		"font"			"HudFontMediumSmallBold"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -103,6 +111,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
 	"ItemCountLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -137,74 +146,53 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"PrevButtonProp"
+	
+	"NextButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"PrevButtonProp"
-		"xpos"			"c-265"
-		"ypos"			"350"
-		"zpos"			"1"
-		"wide"			"70"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"Previous (&A)"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"previtem"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"DoodleColorButBack"
-		"armedBgColor_override"		"DoodleColorButBackHover"
-		"depressedBgColor_override"	"DoodleColorButBack"
-		"defaultFgColor_override"	"DoodleColorWhite"
-		"armedFgColor_override" 	"DoodleColorWhite"
-		"depressedFgColor_override" "DoodleColorButTextNope"
-		"border_default"			"DoodleBorderButton"
-		"border_armed"				"DoodleBorderButtonHover"
-	}
-	"NextButtonProp"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"NextButtonProp"
+		"ControlName"		"CExButton"
+		"fieldName"		"NextButton"
 		"xpos"			"c195"
 		"ypos"			"350"
 		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"30"
 		"autoResize"	"0"
-		"pinCorner"		"3"
+		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Next (&D)"
+		"labelText"		"#NextItem"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"1"
 		"Command"		"nextitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"DoodleColorButBack"
-		"armedBgColor_override"		"DoodleColorButBackHover"
-		"depressedBgColor_override"	"DoodleColorButBack"
-		"defaultFgColor_override"	"DoodleColorWhite"
-		"armedFgColor_override" 	"DoodleColorWhite"
-		"depressedFgColor_override" "DoodleColorButTextNope"
-		"border_default"			"DoodleBorderButton"
-		"border_armed"				"DoodleBorderButtonHover"
 	}
-	
-
+	"PrevButton"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"PrevButton"
+		"xpos"			"c-265"
+		"ypos"			"350"
+		"zpos"			"1"
+		"wide"			"70"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#PreviousItem"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"previtem"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 	
 	"CloseButton"
 	{
@@ -220,8 +208,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#CloseItemPanel"
-		"font"			"DoodleFontButton"
+		"labelText"		"CLOSE"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -229,15 +217,6 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"DoodleColorButBack"
-		"armedBgColor_override"		"DoodleColorButBackHover"
-		"depressedBgColor_override"	"DoodleColorButBack"
-		"defaultFgColor_override"	"DoodleColorWhite"
-		"armedFgColor_override" 	"DoodleColorWhite"
-		"depressedFgColor_override" "DoodleColorButTextNope"
-		"border_default"			"DoodleBorderButton"
-		"border_armed"				"DoodleBorderButtonHover"
 	}
 	"OpenLoadoutButton"
 	{
@@ -253,23 +232,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"%loadouttext%"
-		"font"			"DoodleFontButton"
+		"labelText"		"OPEN LOADOUT"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"changeloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"DoodleColorButBack"
-		"armedBgColor_override"		"DoodleColorButBackHover"
-		"depressedBgColor_override"	"DoodleColorButBack"
-		"defaultFgColor_override"	"DoodleColorWhite"
-		"armedFgColor_override" 	"DoodleColorWhite"
-		"depressedFgColor_override" "DoodleColorButTextNope"
-		"border_default"			"DoodleBorderButton"
-		"border_armed"				"DoodleBorderButtonHover"
 	}
 	
 	"DiscardButton"
@@ -294,17 +264,14 @@
 		"Command"		"discarditem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"DoodleColorButBack"
-		"armedBgColor_override"		"DoodleColorButBackHover"
-		"depressedBgColor_override"	"DoodleColorButBack"
-		"defaultFgColor_override"	"DoodleColorWhite"
-		"armedFgColor_override" 	"DoodleColorWhite"
-		"depressedFgColor_override" "DoodleColorButTextNope"
-		"border_default"			"DoodleBorderButton"
-		"border_armed"				"DoodleBorderButtonHover"
-		"image_drawcolor"	"255 255 255 255"		
-		"image_armedcolor"	"255 255 255 255"		
+
+		"defaultBgColor_override" "117 107 94 255"
+		"armedBgColor_override" "145 73 59 255"
+		"depressedBgColor_override" "117 107 94 255"
+			
+		"image_drawcolor"	"235 226 202 255"		
+		"image_armedcolor"	"235 226 202 255"		
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -333,6 +300,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
+		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -369,9 +337,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "DoodleColorEmphasis"
-		"bgcolor_override"	"15 15 15 255"
+		"fgcolor_override" "200 80 60 255"
+		"bgcolor_override"	"46 43 42 255"
 	}
+	
 	"ScoreEntry"
 	{
 		"ControlName"		"TextEntry"
@@ -395,30 +364,5 @@
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"			"Enter Score Here"
 		"textAlignment"		"center"
-	}
-	
-	// Removed Stuff
-	"NextButton"
-	{
-		"ControlName"	"ImageButton"
-		"fieldName"		"NextButton"
-		"xpos" "9999"
-		"ypos" "9999"
-		"wide" "0"
-		"tall" "0"
-		"visible" "0"
-		"enabled" "0"
-	}
-	"PrevButton"
-	{
-		"ControlName"	"ImageButton"
-		"fieldName"		"PrevButton"
-		"xpos" "9999"
-		"ypos" "9999"
-		"wide" "0"
-		"tall" "0"
-		"visible" "0"
-		"enabled" "0"
-
 	}
 }

@@ -167,7 +167,7 @@
 			"image"		"../console/background_xmas2011"
 		}
 	}
-					
+
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -187,13 +187,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
-		"ypos"			"-80"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 	}
 	
@@ -1875,10 +1875,10 @@
 		}
 	}
 
-	"CallVoteButton"
+	"QuickConnectButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"CallVoteButton"
+		"fieldname"		"QuickConnectButton"
 		"xpos"			"40"
 		"ypos"			"121"
 		"zpos"			"11"
@@ -1997,11 +1997,10 @@
 			}				
 		}
 	}
-
-	"RequestCoachButton"
+	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
+		"fieldname"		"CallVoteButton"
 		"xpos"			"40"
 		"ypos"			"149"
 		"zpos"			"11"

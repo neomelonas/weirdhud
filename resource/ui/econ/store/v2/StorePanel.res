@@ -1,5 +1,3 @@
-// DoodleHUD - edited by Doodles - http://doodlesstuff.com
-//
 "Resource/UI/StorePanel.res"
 {
 	"store_panel"
@@ -17,34 +15,37 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"44 44 44 0"
-		"infocus_bgcolor_override"		"44 44 44 0"
-		"outoffocus_bgcolor_override"	"44 44 44 0"
+		"bgcolor_override"				"GrayBG"
+		"infocus_bgcolor_override"		"GrayBG"
+		"outoffocus_bgcolor_override"	"GrayBG"
+		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"188 188 188 255"
-		"titlebardisabledfgcolor_override"		"188 188 188 255"
-		"titlebarbgcolor_override"				"DoodleColorDialogBack"
+		"titlebarfgcolor_override"				"WhiteS"
+		"titlebardisabledfgcolor_override"		"WhiteS"
+		"titlebarbgcolor_override"				"GrayBG"
+		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
+	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-3"
+		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}
-	"BackgroundHeader2"
+	}			
+	"BackgroundHeaderCustom"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundHeader2"
@@ -59,7 +60,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"0 5 10 196"
+		"bgcolor_override"		"FrameGray"
 	}
 	"BackgroundFooter"
 	{
@@ -67,15 +68,15 @@
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"0"
+		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
+		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}		
-	"BackgroundFooter2"
+	}
+	"BackgroundFooterCustom"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter2"
@@ -90,15 +91,15 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"0 5 10 196"
+		"bgcolor_override"		"FrameGray"
 	}				
 	"FooterLine"
 	{
-			"ControlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 			"fieldName"		"FooterLine"
 			"xpos"			"0"
 			"ypos"			"420"
-			"zpos"			"5"
+			"zpos"			"7"
 			"wide"			"f0"
 			"tall"			"2"
 			"visible"		"1"
@@ -107,8 +108,9 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"DoodleColorBlueDark"
-	}
+			"bgcolor_override"		"BlackBorder"
+	}				
+	
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -118,13 +120,14 @@
 		"tabwidth"		"240"
 		"tabheight"		"34"
 		"transition_time" "0"
+		
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
 			"ypos"			"32"
-			"zpos"			"5"
+			"zpos"			"7"
 			"wide"			"f0"
 			"tall"			"2"
 			"visible"		"1"
@@ -133,39 +136,41 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"DoodleColorBlueDark"
+			"bgcolor_override"		"BlackBorder"
 		}				
+		
 		"tabskv"
 		{
-			"textinsetx"					"30"
-			"textAlignment"					"center"
-			"paintbackground"				"1"
-			"font"							"DoodleFontTitle"
-			"selectedcolor"					"121 191 251 255"
-			"unselectedcolor"				"120 120 120 255"	
-			"defaultBgColor_override"		"DoodleColorDialogBack"
-			"unselectedBgColor_override"	"0 19 35 255"
-			"depressedBgColor_override"	"0 19 35 255"
-			"activeborder_override"			"DoodlesBorderTab"
-			"normalborder_override" 		"DoodlesBorderTab"
+			"textinsetx"		"40"
+			"font"				"HudFontMediumBold"
+			"selectedcolor"		"WhiteS"
+			"unselectedcolor"	"GrayText"	
+			"defaultBgColor_override"	"BlackBorder"
+			"paintbackground"	"1"
+			"activeborder_override"	"NoBorder"
+			"normalborder_override" "NoBorder"
+			"defaultBgColor_override"		"BlackBorder"
+			"unselectedBgColor_override"	"BlackBorder"
+			"depressedBgColor_override"		"BlackBorder"
 		}
 	}
+	
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c-310"
-		"ypos"			"440"
+		"xpos"			"c-300"
+		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"22"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"CLOSE (&Q)"
-		"font"			"DoodleFontButton"
+		"labelText"		"BACK (&Q)"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -173,16 +178,8 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"DoodleColorButBack"
-		"armedBgColor_override"		"DoodleColorButBackHover"
-		"depressedBgColor_override"	"DoodleColorButBack"
-		"defaultFgColor_override"	"DoodleColorWhite"
-		"armedFgColor_override" 	"DoodleColorWhite"
-		"depressedFgColor_override" "DoodleColorButTextNope"
-		"border_default"			"DoodleBorderButton"
-		"border_armed"				"DoodleBorderButtonHover"
 	}		
+	
 	"armory_panel"
 	{
 		"ControlName"		"CArmoryPanel"
@@ -194,6 +191,7 @@
 		"zpos"				"500"
 		"visible"			"0"
 	}
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"
@@ -206,22 +204,53 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
+
+	"SupportCommunityMapMakersCheckButton"
+	{
+		"ControlName"	"CheckButton"
+		"fieldName"		"SupportCommunityMapMakersCheckButton"
+		"xpos"			"c275"
+		"ypos"			"437"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"25"
+		"font"			"HudFontSmall"
+		"labelText"		""
+		"visible"		"0"
+	}
+
+	"SupportCommunityMapMakersLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"SupportCommunityMapMakersLabel"
+		"textAlignment"		"north-west"
+		"xpos"				"c304"
+		"ypos"				"440"
+		"zpos"				"5"
+		"wide"				"70"
+		"tall"				"100"
+		"font"				"HudFontSmallest"
+		"wrap"				"1"
+		"labelText"			"#Store_ConfirmStampDonationAddTitle"
+		"visible"			"0"
+	}
+	
 	"CheckoutButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CheckoutButton"
-		"xpos"			"c210"
-		"ypos"			"440"
+		"xpos"			"c170"
+		"ypos"			"437"
 		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"22"
+		"wide"			"130"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"CHECKOUT (&E)"
-		"font"			"DoodleFontButton"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -229,16 +258,6 @@
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
-		"defaultBgColor_override"	"DoodleColorButBack"
-		"armedBgColor_override"		"DoodleColorButBackHover"
-		"depressedBgColor_override"	"DoodleColorButBack"
-		"defaultFgColor_override"	"DoodleColorWhite"
-		"armedFgColor_override" 	"DoodleColorWhite"
-		"depressedFgColor_override" "DoodleColorButTextNope"
-		"border_default"			"DoodleBorderButton"
-		"border_armed"				"DoodleBorderButtonHover"
-	}
+	}	
+	
 }
-//
-// DoodleHUD - edited by Doodles - http://doodlesstuff.com

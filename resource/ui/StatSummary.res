@@ -34,7 +34,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"DoodleColorStatsBack"
+		"bgcolor_override"	"GrayBGDark"
 		"Background"
 		{
 			"ControlName"	"ImagePanel"
@@ -123,13 +123,13 @@
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"NoBorder"
-			"bgcolor_override"	"0 0 0 128"
+			"bgcolor_override"	"0 0 0 150"
 		}
 		"Title"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
-			"font"			"DoodleFontTitle"
+			"font"			"Bold14"
 			"labelText"		"%title%"
 			"textAlignment"	"north"
 			"xpos"			"c20"
@@ -141,7 +141,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "255 181 50 255"
+			"fgcolor_override" "WhiteS"
 		}
 		"MapAuthors"
 		{
@@ -202,7 +202,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"DoodleFontTitleLabel"
+		"font"			"Heavy28"
 		"labelText"		"%maplabel%"
 		"textAlignment"	"center"
 		"xpos"			"c-45"
@@ -219,7 +219,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"DoodleFontTitleLabelSmall"
+		"font"			"Bold20"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"c-25"
@@ -385,20 +385,20 @@
 			"xpos"			"c-300"
 			"ypos"			"165"
 			"wide"			"600"
-			"tall"			"290"
+			"tall"			"250"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"NoBorder"
-			"bgcolor_override"	"DoodleColorStatsDrop"
+			"bgcolor_override"	"0 0 0 150"
 		}
 		"AveragesLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"DoodleFontTitleLabelSmall"
+			"font"			"Bold20"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
 			"xpos"			"c-285"
@@ -424,7 +424,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarBG1B"
@@ -441,7 +441,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar1A"
@@ -458,7 +458,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar1B"
@@ -475,7 +475,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel1A"
@@ -545,7 +545,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG2B"
@@ -562,7 +562,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar2A"
@@ -579,7 +579,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar2B"
@@ -596,7 +596,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel2A"
@@ -666,7 +666,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG3B"
@@ -683,7 +683,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar3A"
@@ -700,7 +700,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar3B"
@@ -717,7 +717,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel3A"
@@ -787,7 +787,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG4B"
@@ -804,7 +804,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar4A"
@@ -821,7 +821,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar4B"
@@ -838,7 +838,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel4A"
@@ -908,7 +908,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG5B"
@@ -925,7 +925,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar5A"
@@ -942,7 +942,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar5B"
@@ -959,7 +959,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel5A"
@@ -1029,7 +1029,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG6B"
@@ -1046,7 +1046,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar6A"
@@ -1063,7 +1063,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar6B"
@@ -1080,7 +1080,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel6A"
@@ -1150,7 +1150,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG7B"
@@ -1167,7 +1167,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar7A"
@@ -1184,7 +1184,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar7B"
@@ -1201,7 +1201,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel7A"
@@ -1271,7 +1271,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG8B"
@@ -1288,7 +1288,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar8A"
@@ -1305,7 +1305,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar8B"
@@ -1322,7 +1322,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel8A"
@@ -1392,7 +1392,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBarBG9B"
@@ -1409,7 +1409,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar9A"
@@ -1426,7 +1426,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar9B"
@@ -1443,7 +1443,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBar"
+			"fillcolor"		"127 127 127 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel9A"
@@ -1514,7 +1514,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"DoodleFontTitleLabelSmall"
+			"font"			"Bold20"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"	"east"
 			"xpos"			"c0"
@@ -1540,7 +1540,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"0 0 0 80"
+			"fillcolor"		"0 0 0 175"
 			"PaintBackgroundType"	"0"
 		}
 		"RecordsLabel"

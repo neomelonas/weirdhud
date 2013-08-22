@@ -92,7 +92,7 @@
 		"font"			"FuturaHeavy13"
 		"fgcolor"		"OmpShadow"
 		"labeltext"		"%Health%"
-	} wq
+	}
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"

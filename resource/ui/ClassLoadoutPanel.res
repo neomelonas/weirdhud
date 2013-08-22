@@ -14,21 +14,25 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"DoodleColorDialogBack"
-		"infocus_bgcolor_override" "DoodleColorDialogBack"
-		"outoffocus_bgcolor_override" "DoodleColorDialogBack"
+		"bgcolor_override"	"GrayBG"
+		"infocus_bgcolor_override" "GrayBG"
+		"outoffocus_bgcolor_override" "GrayBG"
+		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
 		"item_ypos"		"60"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
+		
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
+
 		"button_xpos_offcenter"	"175"		
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
+		
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -38,19 +42,22 @@
 			"tall"			"70"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
+			
 			"model_ypos"	"5"
 			"model_tall"	"55"
 			"text_ypos"		"54"
 			"text_center"	"1"
 			"name_only"		"1"
+			
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
 			}
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -58,23 +65,42 @@
 			}
 		}
 	}
+	
+	"CaratLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"CaratLabel"
+		"font"			"HudFontSmallestBold"
+		"labelText"		">>"
+		"textAlignment"	"west"
+		"xpos"			"c-300"
+		"ypos"			"99999"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"15"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fgcolor_override" "200 80 60 255"
+	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"DoodleFontTitleLabel"
+		"font"			"Heavy32"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-310"
-		"ypos"			"15"
+		"ypos"			"7"
 		"zpos"			"1"
 		"wide"			"240"
-		"tall"			"25"
+		"tall"			"44"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "DoodleColorEmphasis"
+		"fgcolor_override" "WhiteS"
 	}
 	"CurrentlyEquippedLabel"
 	{
@@ -84,19 +110,37 @@
 		"labelText"		"#CurrentlyEquipped"
 		"textAlignment"	"south-west"
 		"xpos"			"c-55"
-		"ypos"			"22"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 	}
+	
+	"TopLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TopLine"
+		"xpos"			"c-305"
+		"ypos"			"9999"
+		"zpos"			"2"
+		"wide"			"610"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"loadout_dotted_line"
+		"tileImage"		"1"
+		"tileVertically" "0"
+	}				
+	
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
+		
 		"xpos"			"c-135"
 		"ypos"			"20"
 		"zpos"			"-1"		
@@ -106,12 +150,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		
 		"render_texture"	"0"
 		"fov"			"30"
 		"allow_rot"		"1"
+				
 		"model"
 		{
 			"force_pos"	"1"
+
 			"angles_x" "0"
 			"angles_y" "170"
 			"angles_z" "0"
@@ -122,7 +169,9 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
+		
 			"modelname"		""
+			
 			"animation"
 			{
 				"name"		"PRIMARY"
@@ -176,6 +225,7 @@
 			}
 		}
 	}
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -187,13 +237,14 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"109 109 109 255"
-		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
-		"BG"
+		"noitem_textcolor"		"110 110 110 255"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
+		
+		"BackColor"
     	{
-    		"ControlName"		"ImagePanel"
-    		"fieldName"			"BG"
+    		"ControlName"		"EditablePanel"
+    		"fieldName"			"BackColor"
     		"xpos"				"0"
     		"ypos"				"0"
     		"zpos"				"1"
@@ -201,23 +252,30 @@
     		"tall"	 			"f0"
     		"visible"			"1"
     		"enabled"			"1"
-    		"fillcolor"			"DoodleColorItemPanel"
+			"pinCorner"		"0"
+			"autoResize"	"0"
+			"PaintBackgroundType"	"2"
+			"border"		"NoBorder"
+			"bgcolor_override"	"HudBG"
     	}
+		
+		
 		"text_ypos"			"0"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"30"
 	}
+	
 	"PassiveAttribsLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribLarge"
-		"xpos"			"c-140"
-		"ypos"			"125"
+		"xpos"			"c-135"
+		"ypos"			"120"	//120
 		"zpos"			"0"	
-		"wide"			"280"
+		"wide"			"270"
 		"tall"			"240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -225,9 +283,10 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"south"
-		"fgcolor"		"255 215 0 255"
+		"fgcolor"		"WhiteS"
 		"centerwrap"	"1"
 	}
+	
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"
@@ -243,31 +302,6 @@
 		"paintbackground"	"0"
 	}
 	
-	// Removed Stuff
-	"CaratLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CaratLabel"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	"TopLine"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TopLine"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	
-	// Explanations	
 	"PresetsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
@@ -281,6 +315,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
+		
 		"force_close"	"1"
 		"end_x"			"c-200"
 		"end_y"			"120"
@@ -289,6 +324,7 @@
 		"callout_inparents_x"	"c0"
 		"callout_inparents_y"	"75"
 		"next_explanation"		""
+		
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -307,6 +343,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
+		
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -325,6 +362,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
+		
 		"CloseButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -348,10 +386,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
+			
 			"paintbackground"	"0"
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
+			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -370,4 +411,91 @@
 			}				
 		}		
 	}
+	
+	"HatParticleSliderToggleButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"HatParticleSliderToggleButton"
+		"xpos"			"c145"
+		"ypos"			"100"
+		"wide"			"14"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"+"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"Command"		"particle_button_clicked"
+	}
+	
+	"HatParticleSliderBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HatParticleSliderBackground"
+		"xpos"			"c"
+		"ypos"			"100"
+		"wide"			"140"
+		"tall"			"32"
+		"autoResize"	"1"
+		"visible"		"0"
+		"bgcolor_override"	"TanDark"
+		"PaintBackgroundType"	"2"
+	}
+	"HatUseHeadCheckButton"
+	{
+		"ControlName"		"CheckButton"
+		"fieldName"		"HatUseHeadCheckButton"
+		"xpos"			"c2"
+		"ypos"			"100"
+		"wide"		"140"
+		"tall"		"20"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"RoundedCorners"		"15"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"#GameUI_ParticleHatUseHead"
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"1"
+		"wrap"		"0"
+		"centerwrap"		"0"
+		"textinsetx"		"6"
+		"textinsety"		"0"
+		"auto_wide_tocontents"		"0"
+		"use_proportional_insets"		"0"
+		"Default"		"0"
+		"Command"		"particle_use_head_clicked"
+	}
+	
+	"HatParticleSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"HatParticleSlider"
+		"xpos"			"c2"
+		"ypos"			"120"
+		"wide"		"140"
+		"tall"		"14"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"RoundedCorners"		"15"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"fgcolor_override" "TanLight"
+	}	
+	
 }

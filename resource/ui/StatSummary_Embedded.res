@@ -10,7 +10,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"DoodleColorDialogBack"
+		"bgcolor_override"	"GrayBG"
 	}
 	"MainBackground"
 	{
@@ -193,7 +193,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"DoodleFontTitleLabelSmall"
+			"font"			"Bold20"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"	"west"
 			"xpos"			"c-285"
@@ -253,7 +253,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar1B"
@@ -270,7 +270,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel1A"
@@ -372,7 +372,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar2B"
@@ -389,7 +389,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel2A"
@@ -493,7 +493,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar3B"
@@ -510,7 +510,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel3A"
@@ -612,7 +612,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar4B"
@@ -629,7 +629,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel4A"
@@ -731,7 +731,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar5B"
@@ -748,7 +748,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel5A"
@@ -850,7 +850,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar6B"
@@ -867,7 +867,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel6A"
@@ -969,7 +969,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar7B"
@@ -986,7 +986,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel7A"
@@ -1090,7 +1090,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar8B"
@@ -1107,7 +1107,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel8A"
@@ -1209,7 +1209,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar9B"
@@ -1226,7 +1226,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"DoodleColorStatsBarSolid"
+			"fillcolor"		"110 110 110 255"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel9A"
@@ -1295,7 +1295,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"DoodleFontTitleLabelSmall"
+			"font"			"Bold20"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"	"east"
 			"xpos"			"c0"
@@ -1897,7 +1897,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"RESET STATS"
-		"font"			"DoodleFontButton"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1906,14 +1906,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"DoodleColorButBack"
-		"armedBgColor_override"		"DoodleColorButBackHover"
-		"depressedBgColor_override"	"DoodleColorButBack"
-		"defaultFgColor_override"	"DoodleColorWhite"
-		"armedFgColor_override" 	"DoodleColorWhite"
-		"depressedFgColor_override" "DoodleColorButTextNope"
-		"border_default"			"DoodleBorderButton"
-		"border_armed"				"DoodleBorderButtonHover"
 	}
 	"CloseButton" [$WIN32]
 	{
@@ -2042,3 +2034,5 @@
 		"enabled" "0"
 	}
 }
+
+//this stat panel is based on doodle's hud
