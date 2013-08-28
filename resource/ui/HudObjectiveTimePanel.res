@@ -39,6 +39,48 @@
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 	}
+	"ServerTimeLimitLabel"
+	{
+		"ControlName" "CExLabel"
+		"fieldName" "ServerTimeLimitLabel"
+		"xpos" "150"
+		"ypos" "-200"
+		"zpos" "5"
+		"wide" "100"
+		"wide_hidef" "300"
+		"wide_lodef" "300"
+		"tall" "420"
+		"tall_hidef" "100"
+		"tall_lodef" "100"
+		"visible" "0"
+		"enabled" "1"
+		"labelText" "%servertimeleft%"
+		"textAlignment" "center"
+		"dulltext" "0"
+		"brighttext" "0"
+		"wrap" "0"
+		"font" "Futura9"
+		"fgcolor"	 "255 255 255 255"
+	} 
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName" "CTFImagePanel"
+		"fieldName" "ServerTimeLimitLabelBG"
+		"xpos" "9999" [$WIN32]
+		"xpos" "9999" [$X360]
+		"ypos" "9999"
+		"ypos_hidef" "-100" //off-screen
+		"ypos_lodef" "-100" //off-screen
+		"zpos" "1"
+		"wide" "78"
+		"tall" "200"
+		"tall_minmode" "0"
+		"visible" "0"
+		"enabled" "1"
+		"image" "../hud/objectives_timepanel_suddendeath" 
+		"scaleImage" "1" 
+	}
+	
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"		"CExLabel"

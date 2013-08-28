@@ -7,13 +7,13 @@
         "OnlyInGame"    "1"
         "subimage" "icon_resume"
     }
-    "QuickplayButton"
-    {
-        "label" "Multiplayer" 
-        "command" "quickplay"
-        "subimage" "glyph_multiplayer"
-        "OnlyAtMenu" "1"
-    }
+//    "QuickplayButton"
+//    {
+//        "label" "Multiplayer" 
+//        "command" "quickplay"
+//        "subimage" "glyph_multiplayer"
+//        "OnlyAtMenu" "1"
+//    }
     "QuickplayButton"
     {
         "label" "Connect to HL" 
@@ -22,7 +22,7 @@
     }
     "PlayPVEButton"
     {
-        "label" "Connect to 6s" 
+        "label" "Connect to HL" 
         "command" "engine connect 74.91.124.28:27015; password bigbagel"
         "subimage" "glyph_server"
     }

@@ -1820,7 +1820,7 @@
         "ControlName"   "EditablePanel"
         "fieldname"     "ChangeServerButton"
         "xpos"          "120"
-        "ypos"          "117"
+        "ypos"          "145"
         "zpos"          "11"
         "wide"          "36"
         "tall"          "36"
@@ -1842,7 +1842,7 @@
             "tabPosition"   "0"
             "textinsetx"    "0"
             "use_proportional_insets" "1"
-            "font"          "DemiBold36"
+            "font"          "sosas"
             "textAlignment" "west"
             "dulltext"      "0"
             "brighttext"    "0"
@@ -1854,7 +1854,7 @@
             "border_armed"      ""
             "paintbackground"   "0"
             
-            "defaultFgColor_override" "117 0 38  250"
+            "defaultFgColor_override" "Garm3nMenuBG"
             "armedFgColor_override" "125 225 30 255"
             "depressedFgColor_override" "125 225 30 255"
             

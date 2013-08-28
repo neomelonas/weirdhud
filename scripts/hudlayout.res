@@ -1388,7 +1388,7 @@
 		"visible"		"1"			//1
 		"enabled"		"1"
 		"zpos"			"2"
-		"xpos"			"c-57"
+		"xpos"			"c-58"
 		"ypos"			"c-49"
 		"wide"			"102"
 		"tall"			"101"
