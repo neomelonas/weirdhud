@@ -5,7 +5,7 @@
         "fieldName"     "MainMenuOverride"
         "visible"       "1"
         "enabled"       "1"
-        "xpos"          "0"
+        "xpos"          "30"
         "ypos"          "0"
         "zpos"          "0"
         "wide"          "f0"
@@ -17,7 +17,7 @@
         "blog_url"      "http://www.teamfortress.com/"
         
         "button_x_offset"   "-285"
-        "button_y"          "120"
+        "button_y"          "80"
         "button_y_delta"    "5"
         "button_kv"
         {
@@ -124,16 +124,16 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "MainMenuBG"
-        "xpos"          "0"
+        "xpos"          "25"
         "ypos"          "0"
         "zpos"          "-1"
-        "wide"          "200"
+        "wide"          "285"
         "tall"          "480"
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
-        "fillcolor"     "WhiteBG"
+        "fillcolor"     "255 255 255 70"
     }
     
     "Background"
@@ -765,8 +765,8 @@
     {
         "ControlName"   "EditablePanel"
         "fieldName"     "Notifications_ShowButtonPanel"
-        "xpos"          "9999"
-        "ypos"          "9999"
+        "xpos"          "350"
+        "ypos"          "10"
         "zpos"          "1"
         "wide"          "32"
         "tall"          "32"

@@ -143,23 +143,6 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-	}
-	"BlueTeamLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"BlueTeamLabel"
-		"font"				"Medium11"
-		"labelText"			"%blueteamname%"
-		"textAlignment"		"west"
-		"xpos"				"660"
-		"ypos"				"12"
-		"zpos"				"4"
-		"wide"				"65"
-		"tall"				"10"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
 	}		
 	"BlueTeamPlayerCount"
 	{
@@ -254,24 +237,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-	}
-	"RedTeamLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"RedTeamLabel"
-		"font"				"Medium11"
-		"labelText"			"%redteamname%"
-		"textAlignment"		"west"
-		"xpos"				"660"
-		"ypos"				"219"
-		"ypos_minmode"		"162"
-		"wide"				"65"
-		"tall"				"10"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-	}							
+	}				
 	"RedTeamPlayerCount"
 	{
 		"ControlName"		"CExLabel"
@@ -416,7 +382,7 @@
 		"ypos_minmode"			"387"
 		"wide_minmode"			"420"
 		"tall_minmode"			"53"
-		"xpos"			"c-296"
+		"xpos"			"c-222"
 		"ypos"			"382"
 		"zpos"			"3"
 		"wide"			"420"
