@@ -11,7 +11,6 @@
         "wide"          "f0"
         "tall"          "480"
         
-//      "bgcolor_override"  "0 0 0 240"
         
         "update_url"    "http://store.steampowered.com/news/?filter=updates&appids=440"
         "blog_url"      "http://www.teamfortress.com/"
@@ -140,7 +139,7 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "Background"
-        "xpos"          "0"
+        "xpos"          "-30"
         "ypos"          "0"
         "zpos"          "-200"
         "wide"          "f0"
@@ -765,7 +764,7 @@
     {
         "ControlName"   "EditablePanel"
         "fieldName"     "Notifications_ShowButtonPanel"
-        "xpos"          "350"
+        "xpos"          "c160"
         "ypos"          "10"
         "zpos"          "1"
         "wide"          "32"
@@ -1505,12 +1504,12 @@
         }
     }
 
-    "QuickplayButton"
+    "ScrimMatchButton"
     {
         "ControlName"   "EditablePanel"
-        "fieldname"     "QuickplayButton"
+        "fieldname"     "ScrimMatchButton"
         "xpos"          "40"
-        "ypos"          "51"
+        "ypos"          "66"
         "zpos"          "11"
         "wide"          "400"
         "tall"          "36"
@@ -1521,7 +1520,69 @@
         {
             "ControlName"   "CExImageButton"
             "fieldName"     "SubButton"
-            "xpos"          "400"
+            "xpos"          "0"
+            "ypos"          "0"
+            "wide"          "400"
+            "tall"          "36"
+            "autoResize"    "0"
+            "pinCorner"     "3"
+        "visible"       "1"
+            "enabled"       "1"
+            "tabPosition"   "0"
+            "textinsetx"    "0"
+            "use_proportional_insets" "1"
+            "font"          "DemiBold36"
+            "textAlignment" "west"
+            "dulltext"      "0"
+            "brighttext"    "0"
+            "default"       "1"
+            "sound_depressed"   "UI/buttonclick.wav"
+            "sound_released"    "UI/buttonclickrelease.wav"
+                        
+            "border_default"    ""
+            "border_armed"      ""
+            "paintbackground"   "0"
+            
+            "defaultFgColor_override" "117 0 38  250"
+            "armedFgColor_override" "125 225 30 255"
+            "depressedFgColor_override" "125 225 30 255"
+            
+            "image_drawcolor"   "235 226 202 255"
+            "image_armedcolor"  "235 226 202 255"
+            
+            "SubImage"
+            {
+                "ControlName"   "ImagePanel"
+                "fieldName"     "SubImage"
+                "xpos"          "9999"
+                "ypos"          "9999"
+                "zpos"          "1"
+                "wide"          "14"
+                "tall"          "14"
+        "visible"       "1"
+                "enabled"       "1"
+                "image"         "glyph_create"
+                "scaleImage"    "1"
+            }               
+        }
+    }
+    "MGEButton"
+    {
+        "ControlName"   "EditablePanel"
+        "fieldname"     "MGEButton"
+        "xpos"          "40"
+        "ypos"          "98"
+        "zpos"          "11"
+        "wide"          "400"
+        "tall"          "36"
+        "visible"       "1"
+        "PaintBackgroundType"   "0"
+
+        "SubButton"
+        {
+            "ControlName"   "CExImageButton"
+            "fieldName"     "SubButton"
+            "xpos"          "0"
             "ypos"          "0"
             "wide"          "400"
             "tall"          "36"
@@ -1539,7 +1600,7 @@
             "default"       "1"
             "sound_depressed"   "UI/buttonclick.wav"
             "sound_released"    "UI/buttonclickrelease.wav"
-            
+                        
             "border_default"    ""
             "border_armed"      ""
             "paintbackground"   "0"
@@ -1548,9 +1609,9 @@
             "armedFgColor_override" "125 225 30 255"
             "depressedFgColor_override" "125 225 30 255"
             
-            "image_drawcolor"   "117 107 94 255"
+            "image_drawcolor"   "235 226 202 255"
             "image_armedcolor"  "235 226 202 255"
-
+            
             "SubImage"
             {
                 "ControlName"   "ImagePanel"
@@ -1560,10 +1621,11 @@
                 "zpos"          "1"
                 "wide"          "14"
                 "tall"          "14"
-                "visible"       "1"
+        "visible"       "1"
                 "enabled"       "1"
+                "image"         "glyph_create"
                 "scaleImage"    "1"
-            }
+            }               
         }
     }
 
@@ -1695,8 +1757,8 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "PlayPVEButton"
-        "xpos"          "40"
-        "ypos"          "91"
+        "xpos"          "9999"
+        "ypos"          "9999"
         "zpos"          "11"
         "wide"          "400"
         "tall"          "36"
@@ -1823,6 +1885,67 @@
         "ypos"          "145"
         "zpos"          "11"
         "wide"          "36"
+        "tall"          "36"
+        "visible"       "0"
+        "PaintBackgroundType"   "0"
+
+        "SubButton"
+        {
+            "ControlName"   "CExImageButton"
+            "fieldName"     "SubButton"
+            "xpos"          "0"
+            "ypos"          "0"
+            "wide"          "36"
+            "tall"          "36"
+            "autoResize"    "0"
+            "pinCorner"     "3"
+            "visible"       "1"
+            "enabled"       "1"
+            "tabPosition"   "0"
+            "textinsetx"    "0"
+            "use_proportional_insets" "1"
+            "font"          "sosas"
+            "textAlignment" "west"
+            "dulltext"      "0"
+            "brighttext"    "0"
+            "default"       "1"
+            "sound_depressed"   "UI/buttonclick.wav"
+            "sound_released"    "UI/buttonclickrelease.wav"
+            
+            "border_default"    ""
+            "border_armed"      ""
+            "paintbackground"   "0"
+            
+            "defaultFgColor_override" "Garm3nMenuBG"
+            "armedFgColor_override" "125 225 30 255"
+            "depressedFgColor_override" "125 225 30 255"
+            
+            "image_drawcolor"   "117 107 94 255"
+            "image_armedcolor"  "235 226 202 255"
+            "SubImage"
+            {
+                "ControlName"   "ImagePanel"
+                "fieldName"     "SubImage"
+                "xpos"          "9999"
+                "ypos"          "9999"
+                "zpos"          "1"
+                "wide"          "14"
+                "tall"          "14"
+                "visible"       "1"
+                "enabled"       "1"
+                "scaleImage"    "1"
+            }
+        }
+    }
+
+    "DemoUIButton"
+    {
+        "ControlName"   "EditablePanel"
+        "fieldname"     "DemoUIButton"
+        "xpos"          "40"
+        "ypos"          "158"
+        "zpos"          "11"
+        "wide"          "400"
         "tall"          "36"
         "visible"       "0"
         "PaintBackgroundType"   "0"

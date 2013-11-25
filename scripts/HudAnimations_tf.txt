@@ -866,8 +866,11 @@ event DamagedPlayer
 	//Animate	OmpCrosshairCircle		FgColor "192 28 0 140"		Accel 0.0 0.0
 	//Animate	OmpCrosshairCircle		FgColor "0 0 0 60"	Accel 0.1 0.0
 
-	Animate CrossHairKonrWings		FgColor "0 255 120 180"		Accel 0.0 0.0
-	Animate CrossHairKonrWings		FgColor	"117 0 38  250"		Accel 0.1 0.0
+	Animate CrossHairKonrWings		FgColor "117 0 38  250"		Accel 0.0 0.0
+	Animate CrossHairKonrWings		FgColor	"255 255 255  170"		Accel 0.1 0.0
+	
+	Animate CrossHairKonrWingsOutline		FgColor "117 0 38  250"		Accel 0.0 0.0
+	Animate CrossHairKonrWingsOutline		FgColor	"255 35 235 255"		Accel 0.1 0.0
 }
 
 //===========================================

@@ -14,16 +14,16 @@
 //        "subimage" "glyph_multiplayer"
 //        "OnlyAtMenu" "1"
 //    }
-    "QuickplayButton"
+    "ScrimMatchButton"
     {
-        "label" "Connect to HL" 
+        "label" "Scrim/Match" 
         "command" "engine connect idiomatic-esports.com:27015; password bigbagel"
         "subimage" "glyph_server"
     }
-    "PlayPVEButton"
+    "MGEButton"
     {
-        "label" "Connect to HL" 
-        "command" "engine connect idiomatic-esports.com:27015; password bigbagel"
+        "label" "MGE" 
+        "command" "engine connect boundarygamers.com:27016"
         "subimage" "glyph_server"
     }
     "ServerBrowserButton"
@@ -33,6 +33,12 @@
         "subimage" "glyph_server_browser"
         "OnlyAtMenu" "1"
     } 
+    "DemoUIButton"
+    {
+        "label" "2"
+        "command" "engine demoui"
+        "OnlyAtMenu" "1"
+    }
     "ChangeServerButton"
     {
         "label" "s" 
@@ -87,7 +93,6 @@
         "label"         "Connect to NP"
         "command"       "engine connect idiomatic-esports.com:27015; password bigbagel"
         "OnlyInGame"    "1"
-        "subimage"      "icon_checkbox"
     }
     "CallVoteButton"
     {

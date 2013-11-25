@@ -1,11 +1,8 @@
-Drop weirdhud into 
-
-    C:\Program Files (x86)\Steam\steamapps\custom\Team Fortress 2\tf\custom\
-
-Edit the bottom of scripts\hudlayout.res if you want to change the HUD crosshairs.
+///WeirdHud///
+//I am sorry//
 
 This hud is the frankenstein'd bastard child of omp's hud, DoodleHUD, yA_HUD, and probably 6 others that 
-I've used over the last few years.
+I've used over the last few years, it wor
 
 Some fonts might need to be installed. I probably don't have license to distribute these. Oops. If that's
 the case, let me know, and I'll stop. I just got sick of everything being chunky and broken looking.
@@ -15,3 +12,6 @@ Sorry for probably stealing your work to make a hud that was only really intende
 weirdhud: the worst hud.
 
 -oxinai
+
+
+///Changelog///

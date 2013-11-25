@@ -1372,12 +1372,12 @@
 		"font" "Crosshairs32"
 		"fgcolor" "255 255 255 80"
 		"labelText" "9"
-		"xpos" "c-101"
-		"ypos" "c-96"
-		"wide" "203"
-		"tall" "200"
-		"visible" "0"
-		"enabled" "0"
+		"xpos"			"c-51"
+		"ypos"			"c-47"
+		"wide"			"102"
+		"tall"			"101"
+		"visible" "1"
+		"enabled" "1"
 		"textAlignment" "center"
 	}
 
@@ -1385,8 +1385,8 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"1"			//1
-		"enabled"		"1"
+		"visible"		"0"			//1
+		"enabled"		"0"
 		"zpos"			"2"
 		"xpos"			"c-58"
 		"ypos"			"c-49"
@@ -1406,10 +1406,10 @@
 		"visible"		"0"			//1
 		"enabled"		"0"
 		"zpos"			"2"
-		"xpos"			"c-59"
+		"xpos"			"c-58"
 		"ypos"			"c-49"
-		"wide"			"89"
-		"tall"			"89"
+		"wide"			"102"
+		"tall"			"101"
 		"font"			"CrossHairKonrWingsOutline"
 		"labelText"		"i"
 		"textAlignment"	"center"	
