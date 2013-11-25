@@ -1,0 +1,8 @@
+name=WeirdHud
+desc=Hacked together minimalish piece of shit from oxinai.
+creator=oxinai
+steamid=76561197988389437
+url=http://idiomatic-esports.com/huds/weirdhud/
+url=http://github.com/neomelonas/weirdhud
+version=3.5
+update_url=http://github.com/neomelonas/weirdhud/archive/3.5.1.zip

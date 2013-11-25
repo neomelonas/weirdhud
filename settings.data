@@ -1,0 +1,15 @@
+ApiVersion=1.0
+
+[BG:#EEEEEE]
+Window();
+
+[Border:1, BG:#DDDDDD, FG:#000000]
+Banner("GoatHud.png", auto, normal);
+
+[Portion:2]
+[Name:ScrimScrams, Default:text=Scrim/Match|ip=|pass=]
+HudMenuConnectButton("ScrimMatchButton", "Scrim/Match Button");
+
+[Portion:2]
+[Name:MGEBtn, Default:text=MGE|ip=|pass=]
+HudMenuConnectButton("MGEButton", "MGE/DM Button");
